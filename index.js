@@ -737,6 +737,7 @@ function getServiceType(deviceType) {
         case Wemo.DEVICE_TYPE.Insight:
         case Wemo.DEVICE_TYPE.LightSwitch:
         case Wemo.DEVICE_TYPE.Maker:
+            service = Service.GarageDoorOpener;
         case Wemo.DEVICE_TYPE.Switch:
             service = Service.Switch;
             break;
